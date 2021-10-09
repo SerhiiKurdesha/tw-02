@@ -12,13 +12,13 @@
     <header class="page-header">
         <div class="container">
             <nav class="nav">
-                <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">
-                <svg width="33" height="20">
-                    <use href="./svg/sprite.svg#icon-cross"></use>
-                    <use href="./svg/sprite.svg#icon-menu"></use>
+                <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="page-header__list" data-menu-button>
+                <svg width="33" height="23" aria-label="Преключатель">
+                    <use class="icon-cross" href="./svg/sprite.svg#cross"></use>
+                    <use class="icon-menu" href="./svg/sprite.svg#menu"></use>
                 </svg>
             </button>
-            <ul class="page-header__list">
+            <ul class="page-header__list" id="page-header__list" data-menu>
                 <li class="page-header__item">
                     <a href="#">Home</a>
                 </li>
@@ -34,7 +34,7 @@
                 <li class="page-header__item">
                     <a href="#">Contacts</a>
                 </li>
-            </ul>
+            </ul> 
             </nav>     
         </div>
     </header>
