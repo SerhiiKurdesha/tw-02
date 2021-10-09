@@ -4,7 +4,7 @@
 .nav{
     display: flex;
     justify-content: right;
-    padding: 68px 15px 0 0;
+    padding: 66px 13px 0 0;
     
 }
 .page-header__list{
@@ -17,19 +17,39 @@
 
     height: 100vh;
 
-    background-color: yellowgreen;
-    padding: 20px;
-    text-align: center;
+    background-color: $white-color;
+
     font-size: 20px;
 
     &.is-open{
         display: block;
+        padding: 66px 0 0 26px;
+    }
+}
+.page-header__item{
+    font-size: 34px;
+    line-height: 42 / 34 * 100%;
+
+    &:not(:last-child){
+        margin-bottom: 68px;
+    }
+}
+.page-header__link{
+    color: $grey-color;
+
+    &:hover, &:focus{
+        color: #000000;
     }
 }
 .menu-toggle{
     display: inline-block;
     border: none;
     background-color: transparent;
+
+    &.is-open{
+        z-index: 1;
+        fill: #000000;
+    }
 }
 .menu-toggle .icon-cross{
     display: none;
@@ -40,3 +60,6 @@
 .menu-toggle.is-open .icon-menu{
     display: none;
 }
+// .menu-toggle.is-open{
+//     z-index: 1;
+// }
