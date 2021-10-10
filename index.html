@@ -11,9 +11,20 @@
 <body>
     <header class="page-header">
         <div class="container">
-            <div>
-                <nav class="nav">
-                    <ul class="page-header__list" id="page-header__list" data-menu>
+            <div class="page-header__mob">
+                <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="page-header__list" data-menu-button>
+                    <svg width="33" height="23" aria-label="Преключатель">
+                        <use class="icon-cross" href="./svg/sprite.svg#cross"></use>
+                        <use class="icon-menu" href="./svg/sprite.svg#menu"></use>
+                    </svg>
+                </button>
+            </div>
+            
+            <!-- /////////// -->
+            <div class="page-header__list" data-menu>
+                <div class="page-header__flex">
+                    <nav class="nav">
+                    <ul>
                         <li class="page-header__item">
                             <a href="#" class="page-header__link">Home</a>
                         </li>
@@ -30,15 +41,19 @@
                             <a href="#" class="page-header__link">Contacts</a>
                         </li>
                     </ul>
-                <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="page-header__list" data-menu-button>
-                <svg width="33" height="23" aria-label="Преключатель">
-                    <use class="icon-cross" href="./svg/sprite.svg#cross"></use>
-                    <use class="icon-menu" href="./svg/sprite.svg#menu"></use>
-                </svg>
-            </button>
-            </nav> 
-            </div>
-                
+                    </nav>
+                    <div>
+                        <ul class="page-header__left">
+                            <li class="page-header__lang">
+                                <a href="#" class="page-header__link">RU</a>
+                            </li>
+                            <li class="page-header__lang">
+                                <a href="#" class="page-header__link">ENG</a>
+                            </li>
+                        </ul>
+                    </div>  
+                </div>           
+            </div>        
         </div>
     </header>
 

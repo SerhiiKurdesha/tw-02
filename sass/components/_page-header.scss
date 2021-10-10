@@ -1,12 +1,10 @@
 .page-header{
     position: relative;
 }
-.nav{
-    display: flex;
-    justify-content: right;
-    padding: 66px 13px 0 0;
-    
+.page-header__mob{
+    position: relative;
 }
+.nav{}
 .page-header__list{
     display: none;
 
@@ -23,8 +21,14 @@
 
     &.is-open{
         display: block;
-        padding: 66px 0 0 26px;
     }
+}
+.page-header__flex{
+    padding: 66px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 .page-header__item{
     font-size: 34px;
@@ -34,6 +38,20 @@
         margin-bottom: 68px;
     }
 }
+.page-header__lang{
+    font-size: 34px;
+    line-height: 42 /34 *100%;
+    text-align: end;
+
+    &:not(:last-child){
+
+        &::after{
+        content: '';
+        border: 2px solid #828282;
+        margin: 13px 0;
+    }
+    }
+}
 .page-header__link{
     color: $grey-color;
 
@@ -41,8 +59,15 @@
         color: #000000;
     }
 }
+.page-header__left{
+    display: flex;
+    writing-mode: vertical-lr;
+    margin-left: auto;
+}
 .menu-toggle{
-    display: inline-block;
+    position: absolute;
+    top: 68px;
+    right: 15px;
     border: none;
     background-color: transparent;
 
@@ -60,6 +85,3 @@
 .menu-toggle.is-open .icon-menu{
     display: none;
 }
-// .menu-toggle.is-open{
-//     z-index: 1;
-// }
