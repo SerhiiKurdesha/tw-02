@@ -100,9 +100,15 @@
                                 <a href="#" class="hero__link">ENG</a>
                             </li>
                         </ul>
-                    </div>
+                    </div> 
                 </div>   
-                <div class="hero__img"></div>   
+                <picture>
+                    <source srcset="/images/hero-desk@2x.jpg 2x" media="(min-width: 945px)">
+                    <source srcset="/images/hero-desk@1x.jpg 1x" media="(min-width: 768px)">
+                    <source srcset="/images/hero-mob@2x.jpg 2x" media="(min-width: 480px)">
+                    <source srcset="/images/hero-mob@1x.jpg 1x" media="(max-width: 479px)">
+                    <img src="#" alt="фото">
+                </picture>
             </div>
         </section>
 
@@ -158,6 +164,18 @@
                         </li>
                     </ul>
                 </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO -->
+
+        <section class="portfolio">
+            <div class="container">
+                <h2 class="portfolio__title"></h2>
+                <ul class="portfolio__list">
+                    <img src="#" alt="" class="portfolio">
+                    <a href="#"></a>
+                </ul>
             </div>
         </section>
     </main>

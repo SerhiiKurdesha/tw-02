@@ -16,6 +16,7 @@
 
     @media screen and (min-width: 768px) {
         margin-bottom: 69px;
+        color: $second-black-color;
     }
 }
 .skills__text{
@@ -28,6 +29,7 @@
 
     @media screen and (min-width: 768px) {
         margin-bottom: 83px;
+        color: $second-black-color;
     }
 }
 .skills__list{
@@ -41,7 +43,7 @@
 .skills__item{
 
     @media screen and (max-width: 767px) {
-        
+
         &:not(:last-child){
         margin-bottom: 81px;
         }

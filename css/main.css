@@ -44,6 +44,10 @@ h1, h2, h3, h4, h5 {
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
 .page-header {
   position: relative;
 }
@@ -260,22 +264,6 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-.hero__img {
-  height: 478px;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-  background-position: top;
-  background-image: url("/images/hero-mob3.jpg");
-}
-
-@media screen and (min-width: 768px) {
-  .hero__img {
-    height: 387px;
-    max-width: 944px;
-    background-image: url("/images/hero-desk.jpg");
-  }
-}
-
 .hero__lang {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
@@ -383,6 +371,7 @@ h1, h2, h3, h4, h5 {
 @media screen and (min-width: 768px) {
   .skills__title {
     margin-bottom: 69px;
+    color: #070707;
   }
 }
 
@@ -398,6 +387,7 @@ h1, h2, h3, h4, h5 {
 @media screen and (min-width: 768px) {
   .skills__text {
     margin-bottom: 83px;
+    color: #070707;
   }
 }
 
