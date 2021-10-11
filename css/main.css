@@ -415,4 +415,63 @@ img {
 .skills__name {
   margin-top: 24px;
 }
+
+.portfolio {
+  background: #F6F6F6;
+}
+
+.portfolio__div {
+  padding-top: 81px;
+  padding-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__div {
+    padding-top: 112px;
+    padding-bottom: 96px;
+  }
+}
+
+.portfolio__title {
+  margin-bottom: 64px;
+  font-size: 34px;
+  line-height: 123.52941%;
+  text-align: center;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__title {
+    color: #070707;
+    margin-bottom: 47px;
+  }
+}
+
+.portfolio__list:not(:last-child) {
+  margin-bottom: 77px;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__list:not(:last-child) {
+    margin-bottom: 99px;
+  }
+}
+
+.portfolio__link {
+  margin-top: 35px;
+  display: block;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122.22222%;
+  text-align: center;
+  text-decoration: underline;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .portfolio__link {
+    margin-top: 44px;
+    color: #070707;
+  }
+}
 /*# sourceMappingURL=main.css.map */
