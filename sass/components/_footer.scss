@@ -1,0 +1,95 @@
+.footer__div{
+    padding-top: 83px;
+    padding-bottom: 114px;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 116px;
+        padding-bottom: 126px;
+    }
+}
+.footer__title{
+    margin-bottom: 27px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 42 / 34 *100%;
+    text-align: center;
+    color: $second-black-color;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 20px;
+        color: $black-color;
+    }
+}
+.footer__text{
+    margin-bottom: 39px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22 / 18 * 100%;
+    text-align: center;
+    color: $third-black-color;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 29px;
+        color: $second-black-color;
+    }
+}
+.footer__link{
+    display: block;
+    border: 1px solid $black-color;
+    max-width: 316px;
+    padding: 12px 0;
+    border-radius: 50px;
+    background: $black-color;
+    margin: 0 auto;
+
+    color: $white-color;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22 / 18 * 100%;
+
+    transition: background 400ms ease-in-out, color 400ms ease-in-out;
+
+    @media screen and (min-width: 768px) {
+        max-width: 180px;
+
+        &:hover, &:focus{
+            background: $white-color;
+            color: $black-color;
+        }
+    }
+}
+.footer__list{
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 315px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 80px;
+        max-width: 342px;
+    }
+}
+.footer__link-icon{
+    fill: $third-black-color;
+    transition: fill 400ms ease-in-out;
+
+    @media screen and (min-width: 768px) {
+
+        &:hover, &:focus{
+            fill: rgba(235, 146, 106, 0.8);
+        }
+    }
+}
+.footer__line{
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17 / 14 * 100%;
+    text-align: center;
+    color: $grey-color;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 45px;
+    }
+}

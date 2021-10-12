@@ -474,4 +474,120 @@ img {
     color: #070707;
   }
 }
+
+.footer__div {
+  padding-top: 83px;
+  padding-bottom: 114px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__div {
+    padding-top: 116px;
+    padding-bottom: 126px;
+  }
+}
+
+.footer__title {
+  margin-bottom: 27px;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 123.52941%;
+  text-align: center;
+  color: #070707;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__title {
+    margin-bottom: 20px;
+    color: #000000;
+  }
+}
+
+.footer__text {
+  margin-bottom: 39px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122.22222%;
+  text-align: center;
+  color: #090909;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__text {
+    margin-bottom: 29px;
+    color: #070707;
+  }
+}
+
+.footer__link {
+  display: block;
+  border: 1px solid #000000;
+  max-width: 316px;
+  padding: 12px 0;
+  border-radius: 50px;
+  background: #000000;
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  line-height: 122.22222%;
+  -webkit-transition: background 400ms ease-in-out, color 400ms ease-in-out;
+  transition: background 400ms ease-in-out, color 400ms ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__link {
+    max-width: 180px;
+  }
+  .footer__link:hover, .footer__link:focus {
+    background: #ffffff;
+    color: #000000;
+  }
+}
+
+.footer__list {
+  padding-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 315px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__list {
+    padding-top: 80px;
+    max-width: 342px;
+  }
+}
+
+.footer__link-icon {
+  fill: #090909;
+  -webkit-transition: fill 400ms ease-in-out;
+  transition: fill 400ms ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__link-icon:hover, .footer__link-icon:focus {
+    fill: rgba(235, 146, 106, 0.8);
+  }
+}
+
+.footer__line {
+  margin-top: 48px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 121.42857%;
+  text-align: center;
+  color: #828282;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__line {
+    margin-top: 45px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
